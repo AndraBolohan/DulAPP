@@ -102,7 +102,7 @@ a:active {
     transform: translate(-50%, -10%); /* repositions an element in the horizontal and/or vertical directions */
 }
 
-logo {
+.logo {
     height: 100px; /*responsive complet -> height: 10.6vh;*/
     width: auto;
     float: left;
