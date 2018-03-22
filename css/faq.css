@@ -88,16 +88,15 @@ a:visited {
 /* HEADER */
 /* ---------------------------------------- */
 
-.the-box {
-    position: absolute;
-    margin-left: 25%;
-    margin-top: 10%;
+
+.text-box {
+    
+    margin-left: 78%;
+    margin-top: 20%;
     width: 1140px;
     top: 27%;
     left: 45%;
     transform: translate(-50%, -10%); 
-	              /* repositions an element in the horizontal and/or vertical directions */
-}
 
 .logo {
     height: 100px; /*responsive complet -> height: 10.6vh;*/
