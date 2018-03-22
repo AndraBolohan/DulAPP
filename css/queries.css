@@ -1,0 +1,144 @@
+/* Big tablet to 1200px (widths smaller then the 1140px row) */
+@media only screen and (max-width: 1200px) { 
+    /* the width of the browser is max 480*/
+    .text-box {
+        width: 100%;
+        padding: 0 3%;
+    }
+    
+    .row { padding: 0 2%; }
+	.box-afterlog {
+        width: 100%;
+        padding: 0 3%;
+    }
+	.box-contact{
+		margin-left: 10%;
+		 width: 100%;
+        padding: 0 3%;
+		
+	}
+}
+
+/* Small tablet to big tabler: from 768px to 1023px */
+@media only screen and (max-width: 1023px) { 
+    /* the width of the browser is max 480*/
+    body { font-size: 15px; }
+	.box-afterlog{
+		padding: 0 12%;
+	}
+	
+        
+}
+
+/* Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px) { 
+    /* the width of the browser is max 480*/
+    body { font-size: 16px; }
+    
+    section { padding: 30px 0; }
+    
+    .row,
+    .text-box { padding: 0 4%; }
+
+    .main-nav { display: none; }
+    
+
+	.main-nav {
+        float: left;
+        margin-top: 30px;
+        margin-left: 25px;
+    }
+    
+    .main-nav li {
+        display: block;
+    }
+    
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 10px 0;
+        font-size: 100%;
+    }
+    
+    .h1 { font-size: 180%; }
+    
+    .h2 { font-size: 150%; }
+        
+    .map {
+        width: 100%;
+        height: 300px;
+        position: relative;
+        z-index: 0;
+    }
+	.address{
+		margin-top:-20%;
+		
+		
+	}
+	.incadrare
+	{
+	width:90%;
+	padding: 10% 30%;}
+	.btn-ghost {
+		margin-left:50%;
+		margin-top:10%;
+	}
+
+}
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) { 
+    /* the width of the browser is max 480*/
+	section { padding: 25px 0; }
+	.address{
+		margin-top:-20%;
+		
+		
+	}
+	
+	
+}
+@media only screen and (max-width: 290px) {
+	
+	.box-afterlog h1{
+		
+		padding: 0% 0%;
+		font-size:150%;
+		right:5%;
+		
+	}
+	
+	.row{
+		zoom:0.5;
+		padding: 10% 0%;
+	}
+	
+	.main-nav {
+        float: left;
+        margin-top: 30px;
+        margin-left: 25px;
+    }
+	.logo{
+		
+		width:35%;
+		height:35%;
+	}
+	.address{
+		margin-top:-20%;
+		
+		
+	}
+	
+	
+}
+
+@media only screen and (max-width: 800px){
+	
+	.mapp { 
+		width: 60%;
+		height: 50%;
+	}
+		
+		
+}
