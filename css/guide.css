@@ -35,46 +35,23 @@ body {
 /* REUSABLE COMPONENTS */
 /* ---------------------------------------- */
 input{
-    background-attachment:scroll;
-background-clip:border-box;
 background-color:rgb(247, 247, 247);
-background-image:none;
-background-origin:padding-box;
-background-size:auto;
-border-image-outset:0px;
-border-image-repeat:stretch;
-border-image-slice:100%;
-border-image-source:none;
-border-image-width:1;
 border-color: rgb(228, 228, 228);
 border-width: 1px;
-border-style: solid;
-box-sizing:border-box;
 color:rgb(66, 66, 66);
 cursor:text;
 display:inline-block;
 font-size:12px;
-font-stretch:100%;
 font-style:italic;
-font-weight:400;
 height:38.8889px;
-letter-spacing:normal;
-line-height:17.1429px;
 margin-bottom:0px;
 margin-left:4%;
 margin-right:0px;
 margin-top:4%;
 padding: 10px;
-text-align:start;
-text-indent:0px;
-text-rendering:auto;
-text-shadow:none;
-text-size-adjust:100%;
-text-transform:none;
 width:250px;
-word-spacing:0px;
-writing-mode:horizontal-tb;
 }
+
 .row {
     max-width: 1140px;
     margin: 0 auto; /*top-bottom : 0 left,right: auto*/
@@ -171,15 +148,6 @@ a:active {
     border-bottom: 2px solid rgb(219, 96, 214);
 }
 
-.nume {
-    margin-top: 50px;
-    margin-left: 20px;
-    vertical-align:middle;
-    float: left;
-    color: white;
-    text-decoration: none;
-    color: white;
-}
 .address {
 	margin-top: 8px;
 }
