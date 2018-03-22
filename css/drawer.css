@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),url(../poze/drawer.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+    color: white;
+    font-family: 'Raleway', serif, 'Times New Roman', sans-serif; /*sans-serif -> if first 2 unavaliable => any sans serif works*/
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility; /*make our fonts render in a perfect way*/
+    overflow-x: hidden;
+}
+
+
+
+/* ---------------------------------------- */
+/* REUSABLE COMPONENTS */
+/* ---------------------------------------- */
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto; /*top-bottom : 0 left,right: auto*/
+}
+
+.clearfix {zoom: 1}
+
+.clearfix:after { /* clears the float after an element */
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+input{
+background-color:rgb(247, 247, 247);
+border-color: rgb(228, 228, 228);
+border-width: 1px;
+color:rgb(66, 66, 66);
+cursor:text;
+display:inline-block;
+font-size:12px;
+font-style:italic;
+height:38.8889px;
+margin-bottom:0px;
+margin-left:4%;
+margin-right:0px;
+margin-top:4%;
+padding: 10px;
+width:250px;
+}
+
+
+
+/* ------ HEADDINGS ------ */
+
+
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 240%;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    margin-left: 4%; 
+    font-weight: 300;
+    text-transform: uppercase;   
+}
+
+/* ------ LINKS ------ */
+
+a:link,
+a:visited {
+    color: white;
+    text-decoration: none;
+    padding-bottom: 1px;
+}
+
+a:hover,
+a:active {
+    color: #FAA476;
+}
+
+/* ---------------------------------------- */
+/* HEADER */
+/* ---------------------------------------- */
+
+.text-box {
+    position: absolute;
+    width: 1140px;
+    top: 30%;
+    left: 55%;
+    transform: translate(-50%, -10%); /* repositions an element in the horizontal and/or vertical directions */
+}
+
+.logo {
+    height: 100px; /*responsive complet -> height: 10.6vh;*/
+    width: auto;
+    float: left;
+    margin-top: 20px;
+}
+
+/* Main nav */
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 55px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    padding: 8px 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    -webkit-transition: border-bottom 0.2s;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #FAA476;
+}
+
+.btn:link,
+.btn:visited{ /*link-> in normal state, visited-> after the button was clicked*/
+    display: inline-block;
+    padding: 30px 70px;
+    font-weight: 300;
+    font-size: 30px;
+    text-decoration: none;
+    border-radius: 7px;
+    transition: background-color 0.2s, border 0.2s, color 0.2s; /* the color changes over a period of 0.2 second, NU INSTANT)*/
+}
+
+.btn:hover,
+.btn:active {/*hover-> mouse hover, active-> when active*/
+    background-color: #EA8E5D;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+    border: 2px solid #FAA476;
+    color: #FAA476;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+    border: 2px solid #FAA476;
+    color: #fff;
+}
+
+.option{
+    display: inline-block;
+    margin-top: 7%;
+    margin-left: 8%;
+    margin-right: 8%;
+}
