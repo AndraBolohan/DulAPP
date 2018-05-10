@@ -1,0 +1,29 @@
+<diagram program="umletino" version="14.2"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>660</x><y>280</y><w>210</w><h>180</h></coordinates><panel_attributes>Wardrobes
+--
+P * ID_Wardrobe: NUMBER(6) 
+    * Name: VARCHAR2(30)
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>660</x><y>580</y><w>210</w><h>180</h></coordinates><panel_attributes>Login 
+--
+ F * ID_Wardrobe: NUMBER(6)
+    * Username: VARCHAR2(30) 
+    * Password: VARCHAR2(40) 
+    * FirstName: VARCHAR2(30) 
+    * LastName: VARCHAR2(30) 
+    * NumberOfWardrobes: NUMBER(3)
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>180</x><y>580</y><w>210</w><h>180</h></coordinates><panel_attributes>Article 
+--
+P * ID_Article : NUMBER(8)  
+F  * ID_Drawer : NUMBER(6)
+    * Name : VARCHAR2(30) 
+    * Color : VARCHAR2(30) 
+    * Brand : VARCHAR2(30) 
+    * Size : VARCHAR2(10) 
+    * Material : VARCHAR2(20) 
+    * An : DATE
+    * Count : NUMBER(3)
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>390</x><y>360</y><w>290</w><h>40</h></coordinates><panel_attributes>m1=0..n</panel_attributes><additional_attributes>270;10;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>190</x><y>280</y><w>210</w><h>180</h></coordinates><panel_attributes>Drawers
+--
+P  * ID_Drawer: NUMBER(6) 
+F  * ID_Wardrobe: NUMBER(6) 
+    * Name : VARCHAR2(30)
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>280</x><y>450</y><w>50</w><h>150</h></coordinates><panel_attributes>m1=0..n</panel_attributes><additional_attributes>10;10;10;130</additional_attributes></element><element><id>Relation</id><coordinates><x>750</x><y>450</y><w>50</w><h>150</h></coordinates><panel_attributes>m1=0..n</panel_attributes><additional_attributes>10;10;10;130</additional_attributes></element></diagram>
